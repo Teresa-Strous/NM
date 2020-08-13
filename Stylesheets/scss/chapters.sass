@@ -1,0 +1,53 @@
+
+#header
+  padding: 150px 0 0 0
+  height: 100vh
+  align-items: center
+  text-align: center
+  justify-content: center
+  .subtext
+    padding-top: 150px
+
+//intersectionObserverStyles
+.observableContainer
+  margin: 100px 0
+  width: 80%
+  p
+    padding: 100px 60px
+    transform: translateY(20%) scale(1.1)
+    opacity: 0
+    transition: opacity 0.8s ease-in, transform 0.5s ease-in
+  p.active
+    opacity: 1
+    transform: translateY(0)
+
+  p:nth-child(5n)
+    //color: cornflowerblue
+.cover
+  //overlay
+  position: fixed
+  top: 400px
+  right: 50px
+  bottom: 250px
+  left: 50px
+  //background-color: hsla(30deg, 40%, 80%, 0.5)
+#main-section
+  display: flex
+.margin
+  width: 20%
+#acorn
+  z-index: -1
+  top: 50%
+  width: 100px
+  position: fixed
+#squirrel
+  position: fixed
+  z-index: -1
+  bottom: -10px
+  right: 20px
+  width: 200px
+.next-btn-container
+  display: flex
+#next
+  display: flex !important
+  margin: 0 auto
